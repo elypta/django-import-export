@@ -26,7 +26,8 @@ CLASSIFIERS = [
 install_requires = [
     'diff-match-patch',
     'Django>=3.2',
-    'tablib[html,ods,xls,xlsx,yaml]>=3.2.1',
+    #'tablib[html,ods,xls,xlsx,yaml]>=3.2.1',
+    'tablib[xlsx]>=3.2.1',
 ]
 
 
